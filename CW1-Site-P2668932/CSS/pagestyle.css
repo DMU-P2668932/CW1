@@ -1,0 +1,104 @@
+.Title {
+  color: white;
+  font-family: serif;
+  text-align: center;
+  font-size: 20mm;
+  text-shadow: 5px 5px 15px black}
+  /*Used the serif font for the titles to add further importance*/
+
+.Subtitle {
+  color:white;
+  font-family: serif;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 10mm;
+  text-shadow: 3px 3px 9px black}
+  /*Used text shadow on this and the titles to add depth and implied importance to them*/
+
+.badge {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0}
+  /*Used the absoluute position so that the badge will stay at the top of the page, with the top & left values used to position it*/
+
+.Name {
+  color: white;
+  text-decoration: underline;
+  font-size:7mm;
+  text-align: right;
+  text-shadow: 2px 2px 4px black;}
+  /*The underline is simply a quality of life element that I added, so that viewers can seperate the title/names from the paragraph below easier*/
+
+.link {
+  color: midnightblue;
+  text-align: center;
+  font-size: 5mm;
+  border-style: groove;
+  border-radius: 5%;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  margin: 6px;
+  position: fixed;}
+  /*Used the fixed position, so that the navigation bar can be seen, wherever the viewer is on the page*/
+
+.synopsis {
+  color: white;
+  font-family: sans-serif;
+  border-style: ridge;
+  text-align: center;
+  margin: 3px}
+  /*Chose to have the border like this, so that it looks as if it is coming out of the image*/
+
+.disclaimer {
+  color: white;
+  font-family: sans-serif;}
+
+.actors {
+  color: white;
+  text-align: justify;
+  font-family: serif;}
+
+.profile {
+  float: left;
+  width: 300px;
+  height: 170px;
+  image-resolution: from-image;
+  padding-right: 1px;
+  display: flex;}
+
+.description {
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  padding: 6.5px;
+  border-style: ridge;
+  border-width: thick;}
+  /*Chose to use sans-serif for the main text as it's easier to read, used text align so that
+  the image of the actor and the description can be seen at the same time*/
+
+.footer {
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5%;
+  background-color: black}
+
+
+.video {
+  width: 100%}
+/*Had the video size at 100% to make it easier for mobile viewers*/
+
+.audio {
+  align-items: right}
+
+.failtoload {
+  font-family: sans-serif;
+  color: white;}
+
+body {
+  background-color: midnightblue;
+  background-image: url("..");
+  background-repeat: no-repeat;
+  background-size: cover;}
