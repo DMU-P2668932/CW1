@@ -59,6 +59,7 @@
   color: white;
   text-align: justify;
   font-family: serif;}
+/*used justify so that the text would stay on the right, alongside the image, and it would flow below if there's enough*/
 
 .profile {
   float: left;
