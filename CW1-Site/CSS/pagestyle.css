@@ -42,8 +42,8 @@
   background-color: white;
   box-shadow: 2px 2px 5px black;
   margin: 6px;
-  position: fixed;}
-  /*Used the fixed position, so that the navigation bar can be seen, wherever the viewer is on the page*/
+  position: absolute;}
+  /*Used the absolute position again, so that the bar stays near the top of the page*/
 
 .synopsis {
   color: white;
