@@ -41,9 +41,8 @@
   border-radius: 5%;
   background-color: white;
   box-shadow: 2px 2px 5px black;
-  margin: 6px;
-  position: absolute;}
-  /*Used the absolute position again, so that the bar stays near the top of the page*/
+  margin: 6px}
+  /*Chose the opposite colours as the main text to help differentiate it, used align: centre to have it in the middle of the page*/
 
 .synopsis {
   color: white;
